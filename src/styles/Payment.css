@@ -1,0 +1,22 @@
+.payment {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .payment h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .complete-button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  

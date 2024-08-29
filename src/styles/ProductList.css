@@ -1,0 +1,125 @@
+.product-list-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .black-box {
+    background-color: black;
+    padding: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+  }
+  
+  .cart-info {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: black;
+  }
+  
+  .cart-info .cart-icon {
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .cart-info .cart-count {
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: white;
+    color: black;
+    border-radius: 50%;
+    padding: 2px 7px;
+    transform: translate(50%, 50%);
+  }
+  
+  .project-info {
+    padding: 20px;
+    color: black;
+    font-size: 25px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    padding: 0px;
+    height: 470px;
+    border-radius: 30px;
+    text-align: left;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 10px;
+    border-radius: 30px 30px 0 0;
+  }
+  
+  .product-card h2 {
+    font-size: 25px;
+    margin : 10px 0;
+    line-height: 0.8;
+  }
+    
+  .product-card p {
+    font-size: 18px;
+    margin-left: 5px 0;
+    line-height: 0.5;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .product-card button {
+    padding: 8px 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .product-card button.in-cart {
+    background-color: lightgray;
+    color: black;
+  }
+  
+  .view-details-button {
+    background-color: lightgray;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
